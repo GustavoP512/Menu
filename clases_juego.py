@@ -10,7 +10,7 @@ class Usuario:
         return apuesta
 
     def mostrar_saldo(self):
-        texto=f'SALDO DISPONIBLE: ${self.saldo:.2f}'
+        texto=f'{self.saldo:.2f}'
         return texto
 
 
